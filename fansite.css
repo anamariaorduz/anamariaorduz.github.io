@@ -1,4 +1,65 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+body {
+background: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+}
+header {
+  background: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+section {
+  background-color: white;
+  color: black;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.coldbrew {
+  width: 375px;
+  margin: auto;
+  
+}
+
+.sierrabrew {
+  width: 350px;
+  margin: auto;
+}
+
+.blackcoffee {
+  width: 375px;
+  margin: auto;
+}
+
+.established {
+  width: 400px;
+  margin: auto;
+}
+div {
+  background-color: red;
+  margin: auto;
+  width: 100px; 
+
+}
+ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+footer {
+  background-color: black;
+  color: oldlace;  
+  padding: 10px 20px;
+  text-align: center;
 }
